@@ -62,6 +62,8 @@ public class Actitime {
       Actions a=new Actions(driver);
       
       a.doubleClick(wai).perform();
+      //kkkk 
+      System.out.println("heel");
 	}
 
 }
