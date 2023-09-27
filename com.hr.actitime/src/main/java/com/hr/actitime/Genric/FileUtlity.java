@@ -8,11 +8,11 @@ public class FileUtlity {
 	public String getdatafromPropertyFile(String key) throws Throwable {
 		FileInputStream fis = new FileInputStream(IpathConstant1.propertyfilepath);
 
-		Properties p = new Properties();
+		Properties p1 = new Properties();
 
-		p.load(fis);
+		p1.load(fis);
 
-		String value = p.getProperty(key);
+		String value = p1.getProperty(key);
 		
 
 		return value;
