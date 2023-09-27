@@ -1,0 +1,4 @@
+browser Firefox
+url https://demo.actitime.com/login.do
+username admin
+password manager
